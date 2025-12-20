@@ -103,3 +103,6 @@ There were several  aircrafts  with very few uninjured which include :
 The company should prioritize multi-engine, turbine-powered aircraft and operate under commercial aviation standards when entering the aviation market.
 
 
+### Interactive Dashboard 
+
+*The link below leads to tableau public with an interactive dashboard with some of the visuals gotten from the data :: 
