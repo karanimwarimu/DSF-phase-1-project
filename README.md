@@ -2,57 +2,111 @@
 ![alt text](5a5b9102-e6b8-4938-bb62-0b02c104f099.jfif)
 
 ## Overview
-This project analyzesrecent  historical aviation accident data to support data-driven aircraft acquisition decisions.
-The goal is to identify aircraft types that present the lowest operational risk as the company expands into new ventures .
+This project analyzes historical aviation accident data to support data-driven aircraft acquisition decisions. The primary objective is to identify aircraft types that demonstrate lower operational risk, helping guide the company’s expansion into new aviation ventures.
 
-Using data from the National Transportation Safety Board (NTSB), this analysis evaluates accident frequency, severity, and contributing factors across aircraft categories, engine types, and weather conditions.
+Using data from the National Transportation Safety Board (NTSB), the analysis examines accident frequency, severity, and contributing factors across multiple dimensions, including aircraft category, make and model, engine type, and weather conditions.
 
 
-## Business Understanding
+## Business Problem
 
-**Key Business Questions:**
+Aircraft acquisition represents a significant capital investment, where safety performance is a critical decision factor. Understanding historical accident patterns helps reduce exposure to operational, financial, and reputational risk.
 
-1. Which aircraft categories(considering their make , model and engine types) have the lowest historical accident risk?
-2. How does engine type influence accident severity?
-3. What operational models and makes are associated with safer outcomes?
+This analysis addresses the following business-driven questions:
 
-The answers to these questions inform strategic decisions around aircraft purchasing.
+* Which aircraft categories, considering make, model, and engine type, exhibit the lowest historical accident risk?
 
+* How does engine type influence accident severity, including fatal and non-fatal outcomes?
+
+* Which aircraft makes and operational models are consistently associated with safer outcomes?
+
+* The insights generated are intended to support strategic fleet planning, procurement decisions, and risk mitigation efforts.
+
+
+## Data Source
+
+Provider: National Transportation Safety Board (NTSB)
+
+Dataset: Aviation Accident and Incident Data
+
+Time Period: 1962–2023
+
+Access Method: Kaggle
+
+
+## Data Description
+
+The dataset contains over 90,000 aviation accident and incident records, with more than 30 variables describing aircraft characteristics, operational context, and accident outcomes.
+
+Key variables include:
+
+* Aircraft category
+
+* Aircraft make and model
+
+* Engine type
+
+* Operator type
+
+* Damage severity
+
+* Injury outcomes (minor, serious, fatal)
+
+* Geographic location
+
+* Event and publication dates
+
+* Weather conditions at the time of the event
+
+
+## Data Preparation
+
+To ensure analytical reliability and consistency, the following preprocessing steps were performed:
+
+* Removal of duplicate records
+
+* Standardization and conversion of date and numeric fields from object data types
+
+* Handling of missing values using appropriate statistical imputation techniques
+
+* Validation of categorical fields to ensure consistent labeling
+
+These steps ensured a clean and structured dataset suitable for exploratory and comparative analysis.
+
+
+### Analysis Approach
+
+The analysis focuses on identifying safety trends and risk patterns by:
+
+Comparing accident frequency across aircraft categories and engine types
+
+Evaluating accident severity distributions by aircraft make and model
+
+Assessing the impact of operational and environmental factors, such as weather conditions
+
+Highlighting aircraft configurations associated with lower historical risk
+
+
+### Key Outcomes
+
+The results of this analysis provide:
+
+A comparative safety profile of aircraft categories and engine types
+
+Evidence-based insights into safer aircraft makes and operational models
+
+Actionable guidance to support aircraft acquisition and risk management decisions
+
+
+### Tools and Technologies
+
+* Python
+
+* Pandas & NumPy for data manipulation
+
+* Matplotlib & Seaborn for visualization
+
+* Jupyter Notebook for exploratory analysis
 ---
-
-## Data Understanding and Analysis
-
-### Data Source
-* From the National Transportation Safety Board (NTSB)
-* Aviation accidents and incidents (1962–2023)
-* Extracted from Kaggle
-
-### Data Description
-- over 90,000 accident records
-- 30+ variables including:
-  - Aircraft category
-  - Engine type
-  - Operator type
-  - Damage severity
-  - Fatalities(minor , serious , fatal )
-  - Geographic location
-  - Event and publication dates
-  - Weather conditions
-
-### Data Preparation
-Key cleaning steps included:
- ~ Removed duplicate records
-~ Converted dates and numeric fields (from object data types)
-~ Handled missing values with statistical imputation
-
-
----
-
-
-
-
-
-
 
 ## Key Visualizations
 
