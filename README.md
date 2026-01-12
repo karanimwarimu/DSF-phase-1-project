@@ -105,4 +105,5 @@ The company should prioritize multi-engine, turbine-powered aircraft and operate
 
 ### Interactive Dashboard 
 * Under visualizations folder ou will get the interactive dashboard
-*The link below leads to tableau public with an interactive dashboard with some of the visuals gotten from the data :: 
+*The link below leads to tableau public with an interactive dashboard with some of the visuals gotten from the data ::
+     https://public.tableau.com/views/AirlineDashboard_17662150490000/Dashboard1?:language=enUS&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
